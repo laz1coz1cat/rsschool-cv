@@ -1,2 +1,1 @@
-# rsschool-cv
-RS-School CV task
+https://laz1coz1cat.github.io/rsschool-cv/cv
