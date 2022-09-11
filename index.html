@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Hi! I am Pasha Orlov</h1>
+  <h2>Front-End Junior Web Developer</h2>
+</header>
+
+<main>
+  <section>
+    <h3>Contacts</h3>
+    <ul>
+      <li><a href="mailto:laz1coz1cat@gmail.com">laz1coz1cat@gmail.com</a></li>
+      <li>Phone/Telegram: <a href="tel:+79911974747">+7 991 197 47 47</a></li>
+      <li>Address: Uva, Udmurtia, Russia</li>
+      <li>
+        Github: <a href="https://github.com/laz1coz1cat" target="_blank">https://github.com/laz1coz1cat</a></li>
+      <li>Discord: laz1coz1cat#3411</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Work Experience</h3>
+    <p>I have started learning html and css about fifteen years ago but did not finish. Two years ago I started learning
+      at
+      HTML Academy. At Academy I learned all interactive courses. Then I decided to learn JavaScript and become
+      front-end web
+      developer. I have no work experience in IT but I would like to become good specialist. I work in the power
+      industry now
+      and combine work and study. I want to work in front-end or back-end development in future.</p>
+  </section>
+
+  <section>
+    <h3>Skills</h3>
+    <ul>
+      <li>JavaScipt</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Sass/SCSS</li>
+      <li>EMMET</li>
+      <li>Less basics</li>
+      <li>Bootstrap basics</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Education</h3>
+    <ul>
+      <li>HTML Academy Interactive courses</li>
+      <li>Stepik course "JavaScript for beginners"</li>
+      <li>Stepik course "Art of Soft Skills"</li>
+      <li>The modern JavaScript tutorial on <a href="https://learn.javascript.ru"
+                                               target="_blank">learn.javascript.ru</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Languages</h3>
+    <ul>
+      <li>Russian (native)</li>
+      <li>English (A2)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Examples of my code</h3>
+    <pre>
+      <code>
+/*
+  given array included sheeps as true
+  find number of sheeps
+*/
+
+function countSheeps(arrayOfSheep) {
+  return arrayOfSheep.filter(Boolean).length;
+}
+      </code>
+    </pre>
+
+    <pre>
+      <code>
+/*
+  if xCount can be converted to true ('x' found),
+  returns xCount.length; else, returns xCount (null)
+*/
+
+function XO(str) {
+  const xCount = str.match(/[x]/gi);
+  const oCount = str.match(/[o]/gi);
+  return (xCount && xCount.length) === (oCount && oCount.length);
+}
+      </code>
+    </pre>
+  </section>
+</main>
+
+<footer>
+  <a href="https://github.com/laz1coz1cat" target="_blank">My Github</a>
+  <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md" target="_blank">RS-School</a>
+</footer>
+
+</body>
+</html>

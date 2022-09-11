@@ -1,1 +1,1 @@
-https://laz1coz1cat.github.io/rsschool-cv/cv
+https://laz1coz1cat.github.io/rsschool-cv/
